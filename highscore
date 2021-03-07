@@ -1,0 +1,5 @@
+high=0
+for score in student_scores:
+  if score > high:
+    high = score
+print(high)
